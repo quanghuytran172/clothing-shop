@@ -1,0 +1,78 @@
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+
+.container-footer{
+	max-width: 1168px;
+	margin: 0 auto;
+	font-family: Roboto;
+	font-size: 15px;
+	display: flex;
+	background-color: #111;
+	padding: 0;
+}
+.container-footer .list{
+	max-width: 25%;
+	margin-right: 184px;
+}
+.container-footer .list .list-info {
+	padding: 0;
+	margin: 0;
+}
+.container-footer .list .list-info img{
+	height: 39px;
+	width: 140px;
+	margin-bottom: 20px;
+}
+.container-footer .list .list-info .image-footer{
+	margin-top: 23px;
+}
+.container-footer .list .list-info li{
+	margin-bottom: 22px;
+	display:flex;
+}
+.container-footer .list .list-info a{
+	color: #ccc;
+}
+.container-footer .list .list-info a:hover{
+	color: #fff;
+	transition: 0.4s all;
+}
+.container-footer .list .list-info .info-title{
+	font-size: 18px;
+	margin: 0;
+	font-family: sans-serif;
+	color: #fff;
+	font-weight: 600;
+}
+.text{
+	color: #ccc;
+}
+.container-footer .list .list-info li i{
+	font-size: 24px;
+	width: 40px;
+}
+.container-footer .list-fix1{
+	margin-right:15px;
+}
+.container-footer .list-fix2{
+	margin-right: 0;
+}
+.container-footer .list .list-info .icon-fix{
+	   width: 49px;
+}
+
+.container-footer .list .list-info .info-title .title:after{
+	content: "";
+	display: block;
+	height:3px;
+	width: 50px;
+	background-color: #fff;
+	margin-top:15px;
+}
+.container-footer .list .list-info span{
+	line-height: 22px;
+}
