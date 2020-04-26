@@ -182,6 +182,7 @@ a{
     color: #332f2f;
     display: none;
     transition: all .3s ease 0s; 
+    z-index: 2;
 }
 .o2:hover .sub-menu2{
 	display:flex;
@@ -225,6 +226,7 @@ a{
     color: #332f2f;
     display: none;
     transition: all .3s ease 0s; 
+    z-index: 2;
 }
 .o3:hover .sub-menu2{
 	display:flex;
@@ -417,3 +419,136 @@ a{
     font-size: 10px;
 }
 /*-----------flex-list-left------------------*/
+
+.main-show .intro-box{
+	font-family: Roboto;
+    flex-grow: 1;
+}
+.main-show .intro-box .cover{
+	display: flex;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    margin-left: 20px;
+}
+.intro-box .cover .searching{
+	flex-grow: 1;
+}
+.intro-box .cover .searching input[type="text"]{
+	padding: 20px 61px 20px 22px;
+    border: none;
+    width: -webkit-fill-available;
+    border-right: none;
+    font-family: Roboto;
+    font-size: 16px;
+}
+.intro-box .cover .list-style{
+	width: 250px;
+	position: relative;
+}
+.intro-box .cover .list-style a p{
+	padding: 20px 75px;
+	margin: 0;
+	color: #444;
+}
+.intro-box .cover .icon-search i{
+    font-size: 22px;
+    color: #fff;
+    padding: 19px;
+    background-color: #111;
+}
+.intro-box .cover .list-style p:before{
+	content: "";
+    height: 30px;
+    width: 1px;
+    background-color: #ddd;
+    position: absolute;
+    top: 16px;
+    left: 0px;
+}
+.intro-box .cover .searching input[type="text"]:focus{
+	outline: none;
+}
+.intro-box .cover .list-style i{
+    top: 23px;
+    position: absolute;
+    right: 46px;
+    cursor: pointer;
+}
+.intro-box .main-intro{
+	display: flex;
+	height: 463px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: #f9f9f9;
+}
+.intro-box .main-intro .box-content{
+	width: 52%;
+	display: flex;
+	color: #111;
+}
+.intro-box .main-intro .box-content .this{
+	display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 330px;
+    margin: 0 auto;
+}
+.main-intro .box-content .this h3{
+	font-size: 48px;
+    margin: 0;
+}
+.main-intro .box-content .this h3 span{
+	padding: 4px 18px;
+    background-color: #111;
+    color: #fff;
+    font-size: 40px;
+}
+.main-intro .box-content .this .number{
+	margin-bottom: 63px;
+}
+.main-intro .box-content .this .explore{
+	margin-bottom: 55px;
+    margin-top: 25px;
+}
+.main-intro .box-content .this .discribe{
+	margin-top: 26px;
+}
+.intro-box .main-intro .image-main{
+	background: url('https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/2020/02/482x457.jpg') no-repeat center right;
+	width: 48%;
+    background-size: cover;
+}
+.main-intro .box-content .this .number a{
+	color: #aaa;
+}
+.main-intro .box-content .this .number .fix-number{
+    font-size: 28px;
+    color: #111;
+}
+.main-intro .box-content .this .explore a{
+	color: black;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: Roboto;
+    padding-bottom: 10px;
+}
+.main-intro .box-content .this .explore a{
+	position: relative;
+}
+.main-intro .box-content .this .explore a:after{
+	position: absolute;
+    height: 2px;
+    width: 30px;
+    bottom: 0;
+    content: "";
+    background-color: #111;
+    right: 0;
+    margin: 0 auto;
+    left: 0;
+    transition: 0.3s all;
+}
+.main-intro .box-content .this .explore a:hover:after{
+	width: 100%;
+}
+/*flex box right of main-show*/
+
