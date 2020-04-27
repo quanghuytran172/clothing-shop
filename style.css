@@ -552,3 +552,75 @@ a{
 }
 /*flex box right of main-show*/
 
+.container-box-image h3, h5{
+	margin: 0;
+}
+.container-box-image{
+	display: flex;
+	width: 1320px;
+	margin: 0 auto;
+	margin-top: 16px;
+	position: relative;
+}
+.container-box-image a{
+	margin-right: 20px;
+}
+.container-box-image img{
+	width: 650px;
+	height: 316px;
+	border-radius: 3px;
+	display: flex;
+    align-items: flex-end;
+    transform: scale(1);
+    transition: 0.3s all;
+}
+.container-box-image .trending{
+	position: absolute;
+    left: 50px;
+    top: 68%;
+
+}
+.container-box-image .collection{
+	position: absolute;
+    right: 37%;
+    top: 68%;
+
+}
+
+.container-box-image .content-box{
+	font-family: Roboto;
+    color: #000;
+    padding-bottom: 15px;
+    position: relative;
+}
+.container-box-image .content-box h3{
+	font-size: 18px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.container-box-image .content-box h5{
+	font-size: 16px;
+    font-weight: 500;
+}
+.container-box-image .content-box:after{
+	content: '';
+	height: 2px;
+	width: 30px;
+	background-color: black;
+	position: absolute;
+    bottom: 0;
+    transition: 0.3s all;
+}
+.container-box-image a:hover .content-box:after{
+	width: 100%;
+	transition: 0.3s all;
+}
+.container-box-image a:hover .men{
+	transform: scale(1.1);
+}
+.container-box-image a:hover .women{
+	transform: scale(1.1);
+}
+.container-box-image a div{
+	overflow: hidden;
+}
