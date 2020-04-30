@@ -515,6 +515,7 @@ body{
 }
 .main-intro .box-content .this .discribe{
 	margin-top: 26px;
+	line-height: 26px;
 }
 .intro-box .main-intro .image-main{
 	background: url('https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/2020/02/482x457.jpg') no-repeat center right;
@@ -636,7 +637,7 @@ body{
 	background-attachment: fixed;
 	background-position: bottom;
 }
-.content-sale h2,p{
+.content-sale h2,.content-sale p{
 	margin: 0;
 }
 .site-sale .div-s{
@@ -737,4 +738,88 @@ body{
 .product-display .image-s a:hover:after {
 	width: 100%;
 	transition: 0.3s all;
+}
+/* product-display*/
+.news-post{
+	width: 1320px;
+	margin: 0 auto;
+	font-family: Roboto;
+}
+.news-post .title-p{
+	font-size: 26px;
+	letter-spacing: 1px;
+	color: #111;
+}
+.news-post .title-p{
+	text-align: center;
+	margin: 0 0 40px 0;
+}
+.news-post .flex-pb{
+	display: flex;
+}
+.post-box .pb-image{
+	width: 410px;
+    height: 256px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+.post-box .pb-image img{
+	width: 100%;
+	transform: scale(1) rotate(0deg);
+    transition: 0.6s all;
+}
+
+.post-box .pb-image img:hover{
+	transform: scale(1.1) rotate(3deg);
+	transition: 0.6s all;
+}
+
+
+.flex-pb>div:nth-last-child(n+2){
+	margin-right: 45px;
+}
+.news-post .flex-pb .post-box{
+	position: relative;
+}
+.news-post .flex-pb .post-box .overlay{
+	width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    color: #000;
+    position: absolute;
+    left: 25px;
+    bottom: 37%;
+}
+.news-post .flex-pb .post-box > p{
+	margin: 20px 0 10px 0;
+}
+.news-post .flex-pb .post-box > h3{
+	margin: 0;
+}
+.news-post .flex-pb .post-box .a-fix{
+	color: #444;
+	font-size: 15px;
+}
+.news-post .flex-pb .post-box .ac-fix{
+	color: #111;
+	line-height: 28px;
+	font-size: 20px;
+	letter-spacing: 1px;
+}
+.news-post .overlay p,.news-post .overlay h3{
+	margin: 0;
+}
+.news-post .overlay p{
+	margin-top: 15px;
+    font-size: 15px;
+}
+.news-post .flex-pb .post-box .overlay:hover{
+	background-color: #111;
+	color: #fff;
+	transition: 0.5s all;
+}
+.news-post .overlay h3{
+	font-size: 16px;
 }
