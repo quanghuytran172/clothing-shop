@@ -740,6 +740,8 @@ body{
 	transition: 0.3s all;
 }
 /* product-display*/
+
+
 .news-post{
 	width: 1320px;
 	margin: 0 auto;
@@ -773,8 +775,6 @@ body{
 	transform: scale(1.1) rotate(3deg);
 	transition: 0.6s all;
 }
-
-
 .flex-pb>div:nth-last-child(n+2){
 	margin-right: 45px;
 }
@@ -822,4 +822,147 @@ body{
 }
 .news-post .overlay h3{
 	font-size: 16px;
+}
+/*news-post*/
+
+.insta-box{
+	height: 238px;
+	margin: 90px 0;
+	position: relative;
+}
+.insta-box .images-i{
+	display: flex;
+}
+.component{
+	width: 12.5%;
+}
+.component .image-i-1{
+	background: url(https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/sb-instagram-feed-images/56173397_2333889243602027_1382586786035155535_nlow.jpg) center;
+	background-size: cover;
+	height: 238px;
+}
+.component .image-i-2{
+	background: url(https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/sb-instagram-feed-images/56919342_315602099121014_7632816124131877681_nlow.jpg) center;
+	background-size: cover;
+	height: 238px;
+}
+.component .image-i-3{
+	background: url(https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/sb-instagram-feed-images/56380334_837224356625987_3345785388063580316_nlow.jpg) center;
+	background-size: cover;
+	height: 238px;
+}
+.component .image-i-4{
+	background: url(https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/sb-instagram-feed-images/55776561_135362080921813_4282608881904082123_nlow.jpg) center;
+	background-size: cover;
+	height: 238px;
+}
+.component .image-i-5{
+	background: url(https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/sb-instagram-feed-images/56770831_1041832976002602_3665736873029157732_nlow.jpg) center;
+	background-size: cover;
+	height: 238px;
+}
+.component .image-i-6{
+	background: url(https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/sb-instagram-feed-images/56402205_2150515395036509_5313044764177222827_nlow.jpg) center;
+	background-size: cover;
+	height: 238px;
+}
+.component .image-i-7{
+	background: url(https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/sb-instagram-feed-images/56372284_349144015713992_3306810093832259788_nlow.jpg) center;
+	background-size: cover;
+	height: 238px;
+}
+.component .image-i-8{
+	background: url(https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/sb-instagram-feed-images/56331138_673596093074889_3078595201338257675_nlow.jpg) center;
+	background-size: cover;
+	height: 238px;
+}
+.component .b-image .overlay-cpt{
+	background-color: rgba(17,17,17,.8);
+	height: 100%;
+	display: flex;
+	align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: 0.4s all;
+}
+.component .b-image .overlay-cpt i{
+	font-size: 48px;
+    color: #Fff;
+    transform: translate(0px, 60px) scale(1.3);
+    transition: 0.4s all;
+}
+.component .b-image:hover .overlay-cpt{
+	opacity: 1;
+	transition: 0.4s all;
+}
+.component .b-image:hover .overlay-cpt i{
+	transform: translate(0px, 0px) scale(1);
+	transition: 0.5s all;
+	font-size: 50px;
+}
+.insta-box .logo-insta{
+	left: 46.4%;
+    position: absolute;
+    bottom: 47%;
+}
+.insta-box .logo-insta a{
+	padding: 18px 20px;
+    background-color: #fff;
+    color: #111;
+    font-size: 15px;
+    border-radius: 3px;
+    font-size: sans-serif;
+    font-family: sans-serif;
+    letter-spacing: 1.5px;
+    transition: 0.4s all;
+}
+.insta-box .logo-insta a i{
+	font-size: 16px;
+	margin-right: 3px;
+}
+.insta-box .logo-insta a:hover{
+	background-color: #111;
+	color: #fff;
+	transition: 0.4s all;
+}
+/*insta-box component*/
+
+.gift{
+	width: 1320px;
+    margin: 0 auto 90px auto;
+    display: flex;
+    font-family: Roboto;
+}
+.gift h1{
+	    margin: 2px 0 0 0;
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: #000;
+}
+.gift input[type="email"]{
+	flex-grow: 1;
+    margin-right: 20px;
+    border-radius: 30px;
+    border: 0;
+    margin-left: 20px;
+    background-color: #f3f3f3;
+    padding: 0 25px;
+    font-size: 15px;
+    color: #6a6a6a;
+}
+.gift button{
+	padding: 15px 46px;
+    font-family: Roboto;
+    font-size: 17px;
+    background-color: #111;
+    color: #fff;
+    border-radius: 30px;
+    font-weight: 700;
+    border: 0;
+    cursor: pointer;
+    transition: 0.8s all;
+}
+.gift button:hover{
+	opacity: 0.8;
+	transition: 0.8s all;
 }
