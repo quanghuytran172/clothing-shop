@@ -10,7 +10,7 @@ body{
 /*Footer-1*/
 .footer{
 	background-color: #111;
-    padding: 50px 0;
+    padding: 65px 0;
 }
 .container-footer{
 	max-width: 1320px;
@@ -969,4 +969,57 @@ body{
 .gift button:hover{
 	opacity: 0.8;
 	transition: 0.8s all;
+}
+/*gift component*/
+
+.bottom-footer{
+	background-color: #111;
+	border-top: 1px solid rgba(255,255,255,.2);
+}
+.container-bf{
+	width: 1320px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ccc;
+    font-family: Roboto;
+    padding: 20px 0;
+}
+.container-bf .linked-sn p span a{
+	color: #fff;
+}
+.container-bf .linked-sn p{
+	font-size: 15px;
+}
+.container-bf .linked-sn li{
+	margin-left: 20px;
+}
+.container-bf .linked-sn li:first-child{
+	margin-left: 0;
+}
+.container-bf .pre-payment li{
+	margin-left: 15px;
+}
+.container-bf .pre-payment li:first-child{
+	margin-left: 0;
+}
+.container-bf .linked-sn p span a:hover{
+	text-decoration: underline;
+}
+.container-bf .linked-sn i{
+	color: #ccc;
+	font-size: 18px;
+	transition: 0.4s all;
+}
+.container-bf .linked-sn a:hover i{
+	color: #fff;
+}
+.container-bf ul{
+	padding: 0;
+	display: flex;
+}
+
+.container-bf .pre-payment{
+	display: flex;
 }
