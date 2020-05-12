@@ -4,6 +4,6 @@ This is link -> https://www.radiustheme.com/demo/wordpress/themes/metro/?fbclid=
 ## Demo
 Here is my demo link for exercise using firebase hosting: https://online-sales-website.firebaseapp.com/
 
-### How to run the website locally
+## How to run the website locally
 1. Clone this repo
 2. Open component.html
