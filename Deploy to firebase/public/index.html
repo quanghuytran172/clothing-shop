@@ -1,0 +1,1067 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Welcome to Firebase Hosting</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://kit.fontawesome.com/e9a6ecd83d.js" crossorigin="anonymous"></script>
+
+    <!-- update the version number as needed -->
+    <script defer src="/__/firebase/7.14.3/firebase-app.js"></script>
+    <!-- include only the Firebase features as you need -->
+    <script defer src="/__/firebase/7.14.3/firebase-auth.js"></script>
+    <script defer src="/__/firebase/7.14.3/firebase-database.js"></script>
+    <script defer src="/__/firebase/7.14.3/firebase-messaging.js"></script>
+    <script defer src="/__/firebase/7.14.3/firebase-storage.js"></script>
+    <!-- initialize the SDK after all desired features are loaded -->
+    <script defer src="/__/firebase/init.js"></script>
+
+    
+  </head>
+  <body>
+    <section class="header">
+    <div class="header-box">
+      <div class="image-header">
+        <a href="#"><img src="./image/hm-logo.jpg"></a>
+        
+      </div>
+
+      <div class="main-menu">
+        <ul class="list-main">
+          <li class="o1">
+            Home
+            <i class="fas fa-chevron-down"></i>
+            <ul class="sub-menu1">
+              <li>
+                <a href="#">Home 1</a>
+              </li>
+              <li>
+                <a href="#">Home 2</a>
+              </li>
+
+              <li>
+                <a href="#">Home 3</a>
+              </li>
+
+              <li>
+                <a href="#">Home 4</a>
+              </li>
+
+              <li>
+                <a href="#">Home 5</a>
+              </li>
+            </ul>
+          </li>
+          <li class="o2">
+            Shop
+            <i class="fas fa-chevron-down"></i>
+            <ul class="sub-menu2">
+              <li>
+                <ul class="menu-shop">
+                  <li class="shop-title">
+                    <a href="#">Shop Features</a>
+                  </li>
+                  <li>
+                    <a href="#">Grid View</a>
+                  </li>
+                  <li>
+                    <a href="#">List View</a>
+                  </li>
+                  <li>
+                    <a href="#">SideBar Right</a>
+                  </li>
+                  <li>
+                    <a href="#">Sidebar Left</a>
+                  </li>
+                  <li>
+                    <a href="#">Full Width</a>
+                  </li>
+                  <li>
+                    <a href="#">Load More</a>
+                  </li>
+                  <li>
+                    <a href="#">Infinty Scroll</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <ul class="menu-shop">
+                  <li class="shop-title">
+                    <a href="#">Shop Styles</a>
+                  </li>
+                  <li>
+                    <a href="#">Style 1</a>
+                  </li>
+                  <li>
+                    <a href="#">Style 2</a>
+                  </li>
+                  <li>
+                    <a href="#">Style 3</a>
+                  </li>
+                  <li>
+                    <a href="#">Style 4</a>
+                  </li>
+                  <li>
+                    <a href="#">Style 5</a>
+                  </li>
+                  <li>
+                    <a href="#">Style 6</a>
+                  </li>
+                  <li>
+                    <a href="#">Style 7</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <ul class="menu-shop">
+                  <li class="shop-title">
+                    <a href="#">Product Features</a>
+                  </li>
+                  <li>
+                    <a href="#">Single Product 1</a>
+                  </li>
+                  <li>
+                    <a href="#">Single Product 2</a>
+                  </li>
+                  <li>
+                    <a href="#">Single Product 3</a>
+                  </li>
+                  <li>
+                    <a href="#">Single Product 4</a>
+                  </li>
+                  <li>
+                    <a href="#">Single Product 5</a>
+                  </li>
+                  <li>
+                    <a href="#">Single Product 6</a>
+                  </li>
+                  <li>
+                    <a href="#">Single Product 7</a>
+                  </li>
+                </ul>
+              </li>
+
+              <li>
+                
+              </li>
+            </ul>
+          </li>
+          <li class="o3">
+            Pages
+            <i class="fas fa-chevron-down"></i>
+            <ul class="sub-menu2">
+              <li>
+                 <ul class="menu-shop">
+                  <li>
+                    <a href="#">About US</a>
+                  </li>
+                  <li>
+                    <a href="#">FAQ</a>
+                  </li>
+                  <li>
+                    <a href="#">Error 404</a>
+                  </li>
+                  <li>
+                    <a href="#">Search Result</a>
+                  </li>
+                 </ul>
+              </li>
+
+              <li>
+                <ul class="menu-shop">
+                  <li>
+                    <a href="#">My Account</a>
+                  </li>
+                  <li>
+                    <a href="#">Wishlist</a>
+                  </li>
+                  <li>
+                    <a href="#">Cart</a>
+                  </li>
+                  <li>
+                    <a href="#">Checkout</a>
+                  </li>
+                 </ul>
+
+              </li>
+            </ul>
+          </li>
+          <li class="o4">
+            Elements
+            <i class="fas fa-chevron-down"></i>
+            <div class="sub-menu3">
+              <ul class="elements-box">
+                <li>
+                  <div class="child-type"><a href="#">Accordion</a></div>
+                </li>
+                <li class ="icon-down">
+                  <div class="child-type"><a href="#">Post</a></div>
+                  <ul class="sub-menu-child">
+                    <li>
+                      <div><a href="#">Posts - Style 1</a></div>
+                    </li>
+                    <li>
+                      <div><a href="#">Posts - Style 2</a></div>
+                    </li>
+                    <li>
+                      <div><a href="#">Posts - Style 3</a></div>
+                    </li>
+                    <li>
+                      <div><a href="#">Posts - Style 4</a></div>
+                    </li>
+
+                  </ul>
+                </li>
+
+                <li>
+                  <div class="child-type"><a href="#">Product Slider</a></div>
+                </li>
+
+                <li>
+                  <div class="child-type"><a href="#">Product List</a></div>
+                </li>
+
+                <li class="icon-down">
+                  <div class="child-type"><a href="#">Product Isotope</a></div>
+                  <ul class="sub-menu-child">
+                    <li>
+                      <div><a href="#">Product Isotope 1</a></div>
+                    </li>
+                    <li>
+                      <div><a href="#">Product Isotope 2</a></div>
+                    </li>
+                    <li>
+                      <div><a href="#">Product Isotope 3</a></div>
+                    </li>
+                  </ul>
+                </li>
+                <li class="icon-down">
+                  <div class="child-type"><a href="#">Product Fullscreen</a></div>
+                  <ul class="sub-menu-child">
+                    <li>
+                      <div><a href="#">Product Fullscreen 1</a></div>
+                    </li>
+                    <li>
+                      <div><a href="#">Product Fullscreen 1</a></div>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <div class="child-type"><a href="#">Section Title</a></div>
+                </li>
+                <li>
+                  <div class="child-type"><a href="#">Logo Slider</a></div>
+                </li>
+                <li>
+                  <div class="child-type"><a href="#">Video</a></div>
+                </li>
+                <li>
+                  <div class="child-type"><a href="#">Google Map</a></div>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class ="o2">
+            Blog
+            <i class="fas fa-chevron-down"></i>
+            <ul class="sub-menu2 blog">
+              <li>
+                 <ul class="menu-shop">
+                  <li>
+                    <a href="#">Blog-Layout 1</a>
+                  </li>
+                  <li>
+                    <a href="#">Blog-Layout 2</a>
+                  </li>
+                  <li>
+                    <a href="#">Blog-Layout 3</a>
+                  </li>
+                  <li>
+                    <a href="#">Single Post</a>
+                  </li>
+                 </ul>
+              </li>
+
+              <li>
+                <ul class="menu-shop">
+                  <li>
+                    <a href="#">Blog - Full Width</a>
+                  </li>
+                  <li>
+                    <a href="#">Blog - Left Sidebar</a>
+                  </li>
+                  <li>
+                    <a href="#">Post - Full Width</a>
+                  </li>
+                  <li>
+                    <a href="#">Post - Left Sidebar</a>
+                  </li>
+                 </ul>
+
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="icon-client">
+        <div class="se icon1">
+          <i class="fas fa-user"></i>
+        </div>
+        <div class="icon2">
+          <i class="fas fa-shopping-cart"></i>
+        </div>
+        <div class="price-user">
+          $0.00
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  
+  <div class="main-show">
+    <div class="clo-box">
+      <div class="categories">
+        <img src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/themes/metro/assets/img/menubar.png">
+        <span>CATEGORIES</span>
+      </div>
+      <ul class="list-clo">
+        <li>
+          <a href="#"><div>Men</div></a>
+        </li>
+        <li>
+          <a href="#"><div>Women</div></a>
+        </li>
+        <li class="select-list">
+          <a href="#"><div>Eletornics</div></a>
+          <span class="icon-list"><i class="fas fa-chevron-right"></i></span>
+          <ul class="child">
+            <li><a href="#"><div class="a-fix">Accessories</div></a></li>
+            <li><a href="#"><div class="a-fix">Computer</div></a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><div>Jewellery</div></a>
+        </li>
+        <li>
+          <a href="#"><div>Shoes</div></a>
+        </li>
+        <li>
+          <a href="#"><div>Kid's Wear</div></a>
+        </li>
+        <li>
+          <a href="#"><div>Sports</div></a>
+        </li>
+        <li>
+          <a href="#"><div>Toys</div></a>
+        </li>
+        <li>
+          <a href="#"><div>Gift Corners</div></a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="intro-box">
+      <div class="cover">
+        <div class="searching">
+          <input type="text" placeholder="Search Products Here">
+        </div>
+        <div class="list-style">
+          <a href="#"><p>All Categories</p></a>
+          <i class="fas fa-caret-down"></i>
+        </div>
+        <div class="icon-search">
+          <i class="fas fa-search"></i>
+        </div>
+      </div>
+
+      <div class="main-intro">
+        <div class="box-content">
+          <div class="this">
+            <h3>Spring <span>Sale</span></h3>
+            <p class="discribe">
+              New Modern Stylist Fashionable Men's Wear holder bag holder
+            </p>
+            <p class="explore"><a class="explore" href="#">EXPLORE NOW</a></p>
+            <div class="number">
+              <a href="#"><span class="fix-number">01</span>
+              <a href="#"> /02 </a>
+              <a href="#">/ 03</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="image-main">
+          
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="container-box-image">
+    <a href="#">
+      <div>
+      <img class="women" src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/2019/10/h82.jpg">
+      </div>
+      <div class="trending">
+        <div class="content-box">
+          <h3>WOMEN'S</h3>
+          <h5>Trending 2020</h5>
+        </div>
+      </div>
+    </a>
+    <a href="#">
+      <div>
+      <img class="men" src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/2019/10/h81.jpg">
+      </div>
+      <div class="collection">
+        <div class="content-box">
+          <h3>MEN'S</h3>
+          <h5>Collection 2020</h5>
+        </div>
+      </div>
+    </a>
+  </div>
+  <section class="sale-products">
+    <div class="content-product">
+      <h3>Our Trendy Products</h3>
+      <div class="choose-show">
+        <a href="#">All</a>
+        <a href="#">Featured</a>
+        <a href="#">Popular</a>
+        <a href="#">Sale</a>
+        <a href="#">Best Rated</a>
+      </div>
+    </div>
+    <div class="cart">
+      <div class="product-container">
+        <div class="image-p">
+          <a href="#">
+            <img src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/2019/03/p_2-2-360x432.jpg">
+          </a>
+        </div>
+        <h3>
+          <a href="#">Bagpack</a>
+        </h3>
+        <p>$53.00</p>
+        <div class="abs-fix">
+          <div class="cart-box">
+            <button class="search-btn">
+              <i class="far fa-heart"></i>
+            </button>
+            <button class="atc">
+              ADD TO CART
+            </button>
+            <button class="search-btn">
+              <i class="fas fa-search"></i>
+            </button>
+          </div>
+        </div>
+        
+      </div>
+
+      <div class="product-container">
+        <div class="image-p">
+          <a href="#">
+            <img src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/2019/03/p_4-360x432.jpg">
+          </a>
+        </div>
+        <h3>
+          <a href="#">Game Controller</a>
+        </h3>
+        <p>$375.00</p>
+        <div class="abs-fix">
+          <div class="cart-box">
+            <button class="search-btn">
+              <i class="far fa-heart"></i>
+            </button>
+            <button class="atc">
+              ADD TO CART
+            </button>
+            <button class="search-btn">
+              <i class="fas fa-search"></i>
+            </button>
+          </div>
+        </div>
+        
+      </div>
+
+
+      <div class="product-container">
+        <div class="image-p">
+          <a href="#">
+            <img src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/2019/03/p_7-360x432.jpg">
+          </a>
+        </div>
+        <h3>
+          <a href="#">Teddy Bag</a>
+        </h3>
+        <p>$42.00</p>
+        <div class="abs-fix">
+          <div class="cart-box">
+            <button class="search-btn">
+              <i class="far fa-heart"></i>
+            </button>
+            <button class="atc">
+              ADD TO CART
+            </button>
+            <button class="search-btn">
+              <i class="fas fa-search"></i>
+            </button>
+          </div>
+        </div>
+        
+      </div>
+
+
+      <div class="product-container">
+        <div class="image-p">
+          <a href="#">
+            <img src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/2019/03/p_2-360x432.jpg">
+          </a>
+        </div>
+        <h3>
+          <a href="#">Mens Tshirt</a>
+        </h3>
+        <p>$27.00</p>
+        <div class="abs-fix">
+          <div class="cart-box">
+            <button class="search-btn">
+              <i class="far fa-heart"></i>
+            </button>
+            <button class="atc">
+              ADD TO CART
+            </button>
+            <button class="search-btn">
+              <i class="fas fa-search"></i>
+            </button>
+          </div>
+        </div>
+        
+      </div>
+
+
+      <div class="product-container">
+        <div class="image-p">
+          <a href="#">
+            <img src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/2019/03/p_2-1-360x432.jpg">
+          </a>
+        </div>
+        <h3>
+          <a href="#">Necklace</a>
+        </h3>
+        <p>$384.00</p>
+        <div class="abs-fix">
+          <div class="cart-box">
+            <button class="search-btn">
+              <i class="far fa-heart"></i>
+            </button>
+            <button class="atc">
+              ADD TO CART
+            </button>
+            <button class="search-btn">
+              <i class="fas fa-search"></i>
+            </button>
+          </div>
+        </div>
+        
+      </div>
+
+
+      <div class="product-container">
+        <div class="image-p">
+          <a href="#">
+            <img src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/2019/01/jacket_1-360x432.jpg">
+          </a>
+        </div>
+        <h3>
+          <a href="#">Winter Sweater</a>
+        </h3>
+        <p>$63.00 - $75.00</p>
+        <div class="abs-fix">
+          <div class="cart-box">
+            <button class="search-btn">
+              <i class="far fa-heart"></i>
+            </button>
+            <button class="atc">
+              ADD TO CART
+            </button>
+            <button class="search-btn">
+              <i class="fas fa-search"></i>
+            </button>
+          </div>
+        </div>
+        
+      </div>
+
+
+      <div class="product-container">
+        <div class="image-p">
+          <a href="#">
+            <img src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/2019/03/p_5-111-360x432.jpg">
+          </a>
+        </div>
+        <h3>
+          <a href="#">Headphone</a>
+        </h3>
+        <p>$35.00</p>
+        <div class="abs-fix">
+          <div class="cart-box">
+            <button class="search-btn">
+              <i class="far fa-heart"></i>
+            </button>
+            <button class="atc">
+              ADD TO CART
+            </button>
+            <button class="search-btn">
+              <i class="fas fa-search"></i>
+            </button>
+          </div>
+        </div>
+        
+      </div>
+
+
+
+      <div class="product-container">
+        <div class="image-p">
+          <a href="#">
+            <img src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/2020/05/product_13-360x432.jpg">
+          </a>
+        </div>
+        <h3>
+          <a href="#">Medical Kit backpack</a>
+        </h3>
+        <p>$18.00</p>
+        <div class="abs-fix">
+          <div class="cart-box">
+            <button class="search-btn">
+              <i class="far fa-heart"></i>
+            </button>
+            <button class="atc">
+              ADD TO CART
+            </button>
+            <button class="search-btn">
+              <i class="fas fa-search"></i>
+            </button>
+          </div>
+        </div>
+        
+      </div>
+
+
+
+      <div class="product-container">
+        <div class="image-p">
+          <a href="#">
+            <img src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/2020/05/product_14-360x432.jpg">
+          </a>
+        </div>
+        <h3>
+          <a href="#">Medical backpack</a>
+        </h3>
+        <p>$19.00</p>
+        <div class="abs-fix">
+          <div class="cart-box">
+            <button class="search-btn">
+              <i class="far fa-heart"></i>
+            </button>
+            <button class="atc">
+              ADD TO CART
+            </button>
+            <button class="search-btn">
+              <i class="fas fa-search"></i>
+            </button>
+          </div>
+        </div>
+        
+      </div>
+      <div class="product-container">
+        <div class="image-p">
+          <a href="#">
+            <img src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/2020/05/product_11-360x432.jpg
+  ">
+          </a>
+        </div>
+        <h3>
+          <a href="#">First aid kit</a>
+        </h3>
+        <p>$19.00</p>
+        <div class="abs-fix">
+          <div class="cart-box">
+            <button class="search-btn">
+              <i class="far fa-heart"></i>
+            </button>
+            <button class="atc">
+              ADD TO CART
+            </button>
+            <button class="search-btn">
+              <i class="fas fa-search"></i>
+            </button>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    <div class="view-product">
+      <a href="#">VIEW ALL PRODUCTS</a> 
+    </div>
+
+  </section>
+
+
+  <div class="site-sale">
+    <div class="div-s">
+      <div class="content-sale">
+        <h2>End of Season Clearance Sale upto 30%</h2>
+        <p>Stock is limited. Order now to avoid<br>disappointment.</p>
+        <a href="#">
+          SHOP NOW
+        </a>
+      </div>
+    </div>
+    
+  </div>
+  <section class="product-display">
+    <div class="image-s">
+      <div class="sweater">
+        <div class="content-s">
+          <h3>Glamour Long Sweater</h3>
+          <p>The timeless designs jeans</p>
+          <a href="#">SHOP NOW</a>
+        </div>
+      </div>
+    </div>
+    <div class="image-s">
+      <div class="shoes">
+        <div class="content-sh">
+          <h3>Locatto Sports Shoes</h3>
+          <p>The timeless designs jeans</p>
+          <a href="#">SHOP NOW</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="news-post">
+    <h3 class="title-p">Inspirational Posts</h3>
+    <div class="flex-pb">
+      <div class="post-box">
+        <div class="pb-image">
+          <a href="#">
+            <img src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/2019/03/blog_4-465x290.jpg">
+          </a>
+        </div>
+        
+        <div class="overlay c1">
+          <p>29</p>
+          <h3>Mar</h3>
+        </div>
+        <p><a class ="a-fix" href="#">Clothing</a>, <a class ="a-fix" href="#">Jewellery</a></p>
+        <h3><a class="ac-fix" href="#">What to do when you get a gift from someone you didn’t buy for</a></h3>
+        
+      </div>
+
+      <div class="post-box">
+        <div class="pb-image">
+          <a href="#">
+            <img src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/2019/03/blog_8-465x290.jpg">
+          </a>
+        </div>
+        
+        <div class="overlay c2">
+          <p>28</p>
+          <h3>Mar</h3>
+        </div>
+        <p><a class ="a-fix" href="#">Technology</a>, <a class ="a-fix" href="#">Tips</a></p>
+        <h3><a class="ac-fix" href="#">Whatever the occasion our flowers will make it special</a></h3>
+      </div>
+
+      <div class="post-box">
+        <div class="pb-image">
+          <a href="#">
+            <img src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/2019/03/blog_5-465x290.jpg">
+          </a>
+        </div>
+        
+        <div class="overlay c3">
+          <p>27</p>
+          <h3>Mar</h3>
+        </div>
+        <p><a class ="a-fix" href="#">Clothing</a>, <a class ="a-fix"href="#">Jewellery</a></p>
+        <h3><a class="ac-fix" href="#">Wrap up the 12 Days of Deals with sports and outdoors gifts</a></h3>
+        
+      </div>
+    </div>
+  </section>
+
+  <div class="insta-box">
+    <div class="images-i">
+      <div class="component">
+        <a href="#">
+          <div class="b-image image-i-1">
+            <div class="overlay-cpt">
+              <i class="fab fa-instagram"></i>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="component">
+        <a href="#">
+          <div class="b-image image-i-2">
+            <div class="overlay-cpt">
+              <i class="fab fa-instagram"></i>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="component">
+        <a href="#">
+          <div class="b-image image-i-3">
+            <div class="overlay-cpt">
+              <i class="fab fa-instagram"></i>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="component">
+        <a href="#">
+          <div class="b-image image-i-4">
+            <div class="overlay-cpt">
+              <i class="fab fa-instagram"></i>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="component">
+        <a href="#">
+          <div class="b-image image-i-5">
+            <div class="overlay-cpt">
+              <i class="fab fa-instagram"></i>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="component">
+        <a href="#">
+          <div class="b-image image-i-6">
+            <div class="overlay-cpt">
+              <i class="fab fa-instagram"></i>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="component">
+        <a href="#">
+          <div class="b-image image-i-7">
+            <div class="overlay-cpt">
+              <i class="fab fa-instagram"></i>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="component">
+        <a href="#">
+          <div class="b-image image-i-8">
+            <div class="overlay-cpt">
+              <i class="fab fa-instagram"></i>
+            </div>
+          </div>
+        </a>
+      </div>
+      
+    </div>
+
+
+    <div class="logo-insta">
+      <a href="#">
+        <i class="fab fa-instagram"></i><span>Instagram</span>
+      </a>
+    </div>
+  </div>
+  <section class="gift">
+    <h1>JOIN US & GET A SPECIAL WELCOME GIFT</h1>
+    <input type="email" placeholder="Your email address">
+    <button>Subcribe</button>
+  </section>
+  <div class="footer">
+    <div class="container-footer">
+      <div class="list list-fix1">
+        <ul class ="list-info">
+          <li class="image-footer"><img src="./image/hm-logo.jpg"></li>
+          <li class="text">
+            <i class="fas fa-map-marker-alt icon-fix"></i>
+            <span>
+            59 Street, Newyork City, Rose Town, 05 Rive House</span>
+          </li>
+          <li class="text">
+            <i class="fas fa-phone-volume"></i>
+            +123 456 7890
+          </li>
+          <li class="text">
+            <i class="far fa-envelope"></i>
+            info@example.com
+          </li>
+        </ul>   
+      </div>
+      <div class="list">
+        <ul class ="list-info">
+          <li class="info-title">
+            <h3 class="title">INFORMATION</h3>
+          </li>
+          <li>
+            <a href="#">About Us</a>
+          </li>
+          <li>
+            <a href="#">Latest Post</a>
+          </li>
+          <li>
+            <a href="#">Selling Tips</a>
+          </li>
+          <li>
+            <a href="#">Advertising</a>
+          </li>
+          <li>
+            <a href="#">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="list">
+        <ul class ="list-info">
+          <li class="info-title">
+            <h3 class="title">MY ACCOUNT</h3>
+          </li>
+          <li>
+            <a href="#">My Account</a>
+          </li>
+          <li>
+            <a href="#">Login/Register</a>
+          </li>
+          <li>
+            <a href="#">Cart</a>
+          </li>
+          <li>
+            <a href="#">Wishlist</a>
+          </li>
+          <li>
+            <a href="#">Order History</a>
+          </li>
+        </ul>
+      </div>
+      <div class="list list-fix2">
+        <ul class ="list-info">
+          <li class="info-title">
+            <h3 class="title">HELP & SUPPORT</h3>
+          </li>
+          <li>
+            <a href="#">How To Shop</a>
+          </li>
+          <li>
+            <a href="#">Payment</a>
+          </li>
+          <li>
+            <a href="#">Returns</a>
+          </li>
+          <li>
+            <a href="#">Delivery</a>
+          </li>
+          <li>
+            <a href="#">Privacy & Cookie Policy</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="bottom-footer">
+    <div class="container-bf">
+      <div class="linked-sn">
+        <ul>
+          <li>
+            <a href="#">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <i class="fab fa-twitter"></i>  
+            </a>
+            
+          </li>
+            
+          <li>
+            <a href="#">
+              <i class="fa fa-linkedin"></i>
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <i class="fa fa-youtube"></i> 
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <i class="fa fa-pinterest"></i>
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <i class="fa fa-rss"></i>
+            </a>
+          </li>
+        </ul>
+        <p>
+          © Copyright Metro 2020. Designed and Developed by <span><a href="#">RadiusTheme</a></span>
+        </p>
+      </div>
+      <ul class="pre-payment">
+        <li>
+          <img  src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/themes/metro/assets/img/payment1.png">
+        </li>
+        <li>
+          <img  src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/themes/metro/assets/img/payment2.png">
+        </li>
+        <li>
+          <img  src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/themes/metro/assets/img/payment3.png">
+        </li>
+        <li>
+          <img  src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/themes/metro/assets/img/payment4.png">
+        </li>
+      </ul>
+    </div>
+    
+  </div>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+        // // The Firebase SDK is initialized and available here!
+        //
+        // firebase.auth().onAuthStateChanged(user => { });
+        // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
+        // firebase.messaging().requestPermission().then(() => { });
+        // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
+        //
+        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+
+        try {
+          let app = firebase.app();
+          let features = ['auth', 'database', 'messaging', 'storage'].filter(feature => typeof app[feature] === 'function');
+          document.getElementById('load').innerHTML = `Firebase SDK loaded with ${features.join(', ')}`;
+        } catch (e) {
+          console.error(e);
+          document.getElementById('load').innerHTML = 'Error loading the Firebase SDK, check the console.';
+        }
+      });
+    </script>
+  </body>
+</html>
