@@ -31,14 +31,29 @@ a:hover{
 	.intro-box .cover .list-style a p{
 		padding: 20px 20px 20px 40px !important;
 	}
-	
+	.main-show .clo-box .categories{
+		padding: 12px !important;
+	}
 }
 @media (max-width: 540px){
 	.intro-box .cover .list-style a p{
-		padding: 20px 0px 20px 20px !important;
+		padding: 12px 12px 12px 20px!important;
+
 	}
 	.intro-box .cover .list-style i{
 		left: 122px !important;
+	}
+	.intro-box .cover .icon-search i{
+		padding: 12px !important;
+	}
+	.intro-box .cover .icon-search i{	
+		padding: 12px !important;
+	}
+	.intro-box .cover .list-style i {
+		top: 17px !important;
+	}
+	.intro-box .cover .searching input[type="text"]{
+		padding: 12px !important;
 	}
 }
 .row{
@@ -502,7 +517,7 @@ a:hover{
 .main-show .clo-box .categories{
 	background-color: #111;
 	color: #fff;
-	padding: 16px 0 16px 28px;
+	padding: 17px 0 18px 28px;
 	font-size: 20px;
 }
 .main-show .clo-box .categories img{
@@ -617,9 +632,12 @@ a:hover{
 }
 .intro-box .main-intro{
 	display: flex;
-	height: 498px;
+	height: 500px;
     margin-top: 20px;
     background-color: #f9f9f9;
+    transition: all 0.4s ease-in 0s;
+    opacity: 0;
+
 }
 .intro-box .main-intro .box-content{
 	width: 100%;
@@ -655,7 +673,9 @@ a:hover{
 	line-height: 26px;
 }
 .intro-box .main-intro .image-main{
-	background: url('https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/2020/02/482x457.jpg') no-repeat center right;
+	background-repeat: no-repeat;
+	background-position: center right;
+	background-size: cover;
 	width: 100%;
     background-size: cover;
 }

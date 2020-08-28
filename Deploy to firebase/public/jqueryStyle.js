@@ -36,31 +36,4 @@ $(document).ready(function(){
 		$(this).toggleClass('fas fa-bars fas fa-times');
 	})
 	
-	$('.main-intro .text-button1').click(function(){
-		
-		$('.main-intro').css('display','none').css('opacity','0.3');
-		
-		$('.main-intro.m1').css({'display':'flex','transition': '0.4s all ease-in'});
-		setTimeout(function(){
-			$('.main-intro.m1').css('opacity','1');
-		})
-		
-	})
-	$('.main-intro .text-button2').click(function(){
-		
-		$('.main-intro').css('display','none').css('opacity','0.3');
-		$('.main-intro.m2').css({'display':'flex','transition': '0.4s all ease-in'});
-		setTimeout(function(){
-			$('.main-intro.m2').css('opacity','1');
-		})
-	})
-	$('.main-intro .text-button3').click(function(){
-		
-		$('.main-intro').css('display','none' ).css('opacity','0.3');
-		$('.main-intro.m3').css({'display':'flex','transition': '0.4s all ease-in'});
-		setTimeout(function(){
-			$('.main-intro.m3').css('opacity','1');
-		})
-	})
-	
 })
